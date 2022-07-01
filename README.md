@@ -11,7 +11,7 @@
 - Xcode версии ≥ 11
 - Знание Swift на базовом уровне([SwiftBook](https://swiftbook.ru/) / [книжка Усова](https://www.ozon.ru/product/swift-osnovy-razrabotki-prilozheniy-pod-ios-ipados-i-macos-usov-vasiliy-aleksandrovich-usov-233893622/?sh=S9LQvPChHg))
 - Знание Git на базовом уровне(checkout, merge, rebase, revert, git workflow,  branch)
-- Пройти курс Raywenderlich: “[iOS and SwiftUI for Beginners](https://www.raywenderlich.com/ios/paths/learn)”
+- Пройти курс Raywenderlich: [iOS and SwiftUI for Beginners](https://www.raywenderlich.com/ios/paths/learn)
 - Свой проект для покрытия автотестами
 
 # Beginner
@@ -224,3 +224,4 @@
 3. на основании скриптов из прошлых уроков, создаем pipeline с запуском тестов
 
 **Полезные материалы:**
+- [Setting up GitLab CI for iOS projects](https://about.gitlab.com/blog/2016/03/10/setting-up-gitlab-ci-for-ios-projects/)
