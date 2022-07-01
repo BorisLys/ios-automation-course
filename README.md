@@ -78,10 +78,10 @@
 
 **Цель: научиться работать с жизненным циклом приложения во время прогона тестов**
 
-- открыть при старте приложения Safari
-- добавить launch argument и environment
-- сбросить любой пирмишен перед стартом приложения
-- использовать все методы жизненного цикла(setUp, tearDown и.т.д)
+1. открыть при старте приложения Safari
+2. добавить launch argument и environment
+3. сбросить любой пирмишен перед стартом приложения
+4. использовать все методы жизненного цикла(setUp, tearDown и.т.д)
 
 **Полезные материалы:**
 
@@ -93,13 +93,13 @@
 
 **Цель: научиться использовать задержки**
 
-- написать явную задержку
-- написать неявную задержку используя:
-    1. XCTNSPredicateExpectation
-    2. XCTWaiter
-    3. XCTDarwinNotificationExpectation*
-    4. XCTNSNotificationExpectation*
-    5. XCTKVOExpectation*
+1. написать явную задержку
+2. написать неявную задержку используя:
+    - XCTNSPredicateExpectation
+    - XCTWaiter
+    - XCTDarwinNotificationExpectation*
+    - XCTNSNotificationExpectation*
+    - XCTKVOExpectation*
     
 > Задачка со звездочкой: эти классы редко используются в задержках, но знакомство с ними может быть сильно полезным
 
@@ -134,11 +134,11 @@
 
 1. покрыть ui-тестами каждый экран приложения не менее 2 тестов на экран.
 2. создать тест план для группировки тестов:
-    1. из таргета с тестами
-    2. пустой тест план и наполнить его тестами
+    - из таргета с тестами
+    - пустой тест план и наполнить его тестами
 3. изменить конфигурацию тест плана
-    1. переопределить launch arguments и launch environment для тестов
-    2. измените геолокацию, регион и язык для тестов
+    - переопределить launch arguments и launch environment для тестов
+    - измените геолокацию, регион и язык для тестов
 4. создать несколько настроек для тест плана(например: настройки для регрессионого прогона, для прогона на испанском языке и.т.д)
 
 **Полезные материалы:**
@@ -155,11 +155,11 @@
 **Цель: научиться работать с Snapshot testing** 
 
 1. выбрать библиотеку для Snapshot testing:
-    1. https://github.com/uber/ios-snapshot-test-case
-    2. https://github.com/pointfreeco/swift-snapshot-testing
+    - https://github.com/uber/ios-snapshot-test-case
+    - https://github.com/pointfreeco/swift-snapshot-testing
 2. реализовать метод:
-    1. создание скриншота всего экрана
-    2. создание скриншота отдельного элемента
+    - создание скриншота всего экрана
+    - создание скриншота отдельного элемента
 3. написать 1 снэпшот тест с полным скриншотом экрана и 1 с снэпшотом определенного элемента
 
 **Полезные материалы:**
@@ -176,10 +176,10 @@
 **Цель: научиться внедрять мок сервер в свой проект**
 
 1. выбрать библиотеку для реализации мок сервера:
-    1. https://github.com/tinkoff-mobile-tech/TinkoffMockStrapping
-    2. https://github.com/httpswift/swifter
-    3. https://github.com/envoy/Embassy
-    4. https://github.com/Subito-it/SBTUITestTunnel
+    - https://github.com/tinkoff-mobile-tech/TinkoffMockStrapping
+    - https://github.com/httpswift/swifter
+    - https://github.com/envoy/Embassy
+    - https://github.com/Subito-it/SBTUITestTunnel
 2. пишем любой тест с использованием моков
 
 **Полезные материалы:**
@@ -198,14 +198,14 @@
 
 1. распаралелить автотесты в xcode
 2. выбрать раннер по душе:
-    1. [fastlane](https://docs.fastlane.tools/)
-    2. [marathon](https://github.com/MarathonLabs/marathon)
-    3. [Emcee](https://github.com/avito-tech/Emcee)
+    - [fastlane](https://docs.fastlane.tools/)
+    - [marathon](https://github.com/MarathonLabs/marathon)
+    - [Emcee](https://github.com/avito-tech/Emcee)
 3. написать скрипт для запуска тестов по:
-    1. схеме
-    2. тест плану
-    3. без компиляции проекта на основе существующей derived data
-    4. распаралелить автотесты используя CLI
+    - схеме
+    - тест плану
+    - без компиляции проекта на основе существующей derived data
+    - распаралелить автотесты используя CLI
 
 **Полезные материалы:**
 
@@ -218,8 +218,8 @@
 **Цель: научиться работать с CI запускать тесты  удаленно на билд агенте**
 
 1. выбираем ci на своё усмотрение:
-    1. [Jenkins](https://www.jenkins.io/)
-    2. [GitLab](https://about.gitlab.com/)
+    - [Jenkins](https://www.jenkins.io/)
+    - [GitLab](https://about.gitlab.com/)
 2. создаем билд агент
 3. на основании скриптов из прошлых уроков, создаем pipeline с запуском тестов
 
