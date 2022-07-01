@@ -8,7 +8,7 @@
 
 ## **Требования к участникам программы:**
 
-- Xcode версии ≥ 11
+- Xcode версии ≥ 12
 - Знание Swift на базовом уровне([SwiftBook](https://swiftbook.ru/) / [книжка Усова](https://www.ozon.ru/product/swift-osnovy-razrabotki-prilozheniy-pod-ios-ipados-i-macos-usov-vasiliy-aleksandrovich-usov-233893622/?sh=S9LQvPChHg))
 - Знание Git на базовом уровне(checkout, merge, rebase, revert, git workflow,  branch)
 - Пройти курс Raywenderlich: [iOS and SwiftUI for Beginners](https://www.raywenderlich.com/ios/paths/learn)
